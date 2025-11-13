@@ -4,9 +4,9 @@ This repository contains the code for the paper "Mitigating Latency and Partitio
 
 # Installations
 
-We assume a previously clean installation of Ubuntu20.04 or Ubuntu22.04
+We assume a previously clean installation of Ubuntu20.04 or Ubuntu22.04.
 
-The ARGoS simulator version 59 can be installed from instructions:  https://github.com/ilpincy/argos3
+The ARGoS simulator version 59 can be installed from instructions:  https://github.com/ilpincy/argos3.
 
 Download and compile E-puck plugin (More information at https://github.com/demiurge-project/argos3-epuck). 
 The argos-python wrapper was made by Ken Hasslemen: https://github.com/KenN7/argos-python. We have adapted it for our openswarm setup in [argos-python](https://github.com/rainazakir/size_regulation/tree/main/argos-python) folder. 
