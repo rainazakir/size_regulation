@@ -16,6 +16,8 @@ The toychain implementation of our collective sensing scenario specified in the 
 # Configurations and Running experiments
 
 Edit [```experimentconfig.sh```](https://github.com/rainazakir/size_regulation/blob/main/HelloWorld/experimentconfig.sh) file to match your paths
+
+
 To run an experiment:
 ```
 cd HelloWorld/
