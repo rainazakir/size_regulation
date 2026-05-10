@@ -186,10 +186,10 @@ def pre_step():
             except Exception:
                 current_signers = []
 
-            for rid in assigned_ids:
-                enode = gen_enode(rid)
-                if enode not in current_signers:
-                    current_signers.append(enode)
+            #for rid in assigned_ids:
+            #    enode = gen_enode(rid)
+            #    if enode not in current_signers:
+            #        current_signers.append(enode)
 
             print(f"[LoopFunction] Updated AUTH_SIGNERS with {len(current_signers)} signers")
             _append_to_new_signers(assigned_ids)
